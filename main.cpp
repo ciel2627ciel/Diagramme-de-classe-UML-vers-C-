@@ -12,7 +12,7 @@
 
 int main() {
     // --- Etape 1 : un conducteur et deux motos (une thermique, une électrique) ---
-    Conducteur c1("Dupont", "Alice", 1990);
+    Conducteur c1("Alain", "Grom", 1990);
 
     Moteur* moteurThermique = new Thermique(45000, 650.0f); // 45kW, 650cm3
     Moto motoThermique(moteurThermique, "Rouge", "Yamaha MT-07", 180);
